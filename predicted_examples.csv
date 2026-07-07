@@ -1,0 +1,11 @@
+Healthcare Statement,Expected Medical Response,Predicted Response
+Taking too much paracetamol can damage the liver,Reliable,Misleading
+Eating only ginger and lemon can cure typhoid fever,Misleading,Misleading
+Children under five should be fully vaccinated according to schedule,Reliable,Reliable
+Rubbing toothpaste on a burn wound speeds up healing,Misleading,Misleading
+Regular blood pressure checks help detect hypertension early,Reliable,Reliable
+COVID-19 can be cured by drinking hot water with chili pepper,Misleading,Misleading
+Mosquito nets treated with insecticide reduce malaria transmission,Reliable,Reliable
+Bleach can be safely consumed to disinfect the body internally,Misleading,Misleading
+Getting enough sleep each night supports immune function and overall health,Reliable,Reliable
+Sitting too close to a television permanently damages eyesight,Miselading,Misleading
