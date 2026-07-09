@@ -9,8 +9,13 @@ st.set_page_config(
 )
 
 # ---------------- Load Model ----------------
-vectorizer = joblib.load("models/tfidf_vectorizer.pkl")
-model = joblib.load("models/healthcare_lr_model.pkl")
+@st.cache_resource
+def load_model():
+    vectorizer = joblib.load("models/tfidf_vectorizer.pkl")
+    model = joblib.load("models/healthcare_lr_model.pkl")
+    return vectorizer, model
+
+vectorizer, model = load_model()
 
 # ---------------- Custom CSS ----------------
 st.markdown("""
@@ -67,7 +72,7 @@ st.caption(
 # ---------------- Input ----------------
 with st.container(border=True):
 
-    st.markdown("**Enter a healthcare statement**")
+    st.markdown("**Enter a statement**")
 
     user_input = st.text_area(
         "",
