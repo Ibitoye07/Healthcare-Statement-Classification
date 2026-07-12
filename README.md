@@ -76,3 +76,20 @@ https://healthcare-statement-classification.streamlit.app/
 4. Hit Analyze and watch the magic happen ✨
 
    You'll see the verdict !
+
+## Example Screnshots
+### ✅ Reliable Statement
+
+### ❌ Misleading Statement
+
+## 🔮 Future Improvements
+
+- Expand the labelled dataset
+- Fine-tune transformer models (e.g., BERT)
+- Multi-class health misinformation detection
+- Explainable AI (SHAP/LIME)
+- Confidence score visualization
+
+## 📜 License
+
+This project is licensed under the MIT License.
