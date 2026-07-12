@@ -21,9 +21,6 @@ TF-IDF: Term Fequency-Inverse Document Frequency
 | 🌐 Web Application Interface | Streamlit |
 | 🧠 Machine Learning Library | Scikit-learn |
 | 📝 NLP Technique | TF-IDF Vectorization |
-| 📊 Data Processing | Pandas |
-| 🔢 Numerical Computing | NumPy |
-| 💾 Model Storage | Joblib |
 
 ## 📂 Project Structure
 
@@ -89,14 +86,20 @@ https://healthcare-statement-classification.streamlit.app/
 
    You'll see the verdict !
 
-## Example Screnshots
+## 🖼️ Example Screnshots
 ### ✅ Reliable Statement
+
+![Reliable Classification](images/Reliable_classification.png)
+
 
 ### ❌ Misleading Statement
 
+![Misleading Prediction](images/Misleading_classification.png)
+
+
 ## 🔮 Future Improvements
 
-- 📈 Expand the labelled healthcare dataset to improve model performance.
+- 📈 Expand the dataset to include more health-related statements to improve the model's performance and generalization.
 - 🤖 Explore transformer-based NLP models such as BERT for improved text classification.
 - 🌍 Support local Nigerian languages.
 - 📊 Display prediction confidence scores.
