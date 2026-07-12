@@ -13,6 +13,18 @@ TF-IDF: Term Fequency-Inverse Document Frequency
 - 💻 Web Interface- Interactive Streamlit web application
 - ⚡ Instant predictions
 
+## 🛠️ Tech Stack
+
+| Component | Technology |
+|-----------|------------|
+| 💻 Programming Language | Python |
+| 🌐 Web Application Interface | Streamlit |
+| 🧠 Machine Learning Library | Scikit-learn |
+| 📝 NLP Technique | TF-IDF Vectorization |
+| 📊 Data Processing | Pandas |
+| 🔢 Numerical Computing | NumPy |
+| 💾 Model Storage | Joblib |
+
 ## 📂 Project Structure
 
 ```
@@ -95,5 +107,15 @@ https://healthcare-statement-classification.streamlit.app/
 This project is licensed under the [MIT License](LICENSE)
 
 ## 💬 Contributing
-Contributions are welcome. If you find a bug or have a suggestion for improving the project, please 
-[open an issue](https://github.com/YOUR_USERNAME/Healthcare-Statement-Classification/issues) or submit a pull request.
+Contributions are welcome. If you find a bug or have a suggestion for improving the project 
+
+please [open an issue](https://github.com/YOUR_USERNAME/Healthcare-Statement-Classification/issues) or submit a pull request.
+
+## ⚠️ Disclaimer
+
+This project is a proof-of-concept machine learning prototype developed for educational and research purposes. While the model aims to classify healthcare statements as **Reliable** or **Misleading**, its predictions are based on a limited labelled dataset and should not be relied upon for medical, clinical, or public health decision-making.
+
+Users should verify health information using reputable medical sources and consult qualified healthcare professionals for medical advice, diagnosis, or treatment.
+
+
+Created with ☕ and 💻 by **[Olaniran Ibitoye](https://github.com/Ibitoye07)**
