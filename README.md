@@ -84,12 +84,16 @@ https://healthcare-statement-classification.streamlit.app/
 
 ## 🔮 Future Improvements
 
-- Expand the labelled dataset
-- Fine-tune transformer models (e.g., BERT)
-- Multi-class health misinformation detection
-- Explainable AI (SHAP/LIME)
-- Confidence score visualization
+- 📈 Expand the labelled healthcare dataset to improve model performance.
+- 🤖 Explore transformer-based NLP models such as BERT for improved text classification.
+- 🌍 Support local Nigerian languages.
+- 📊 Display prediction confidence scores.
+- 💡 Integrate explainable AI techniques (e.g., SHAP or LIME) to explain why a statement was classified as Reliable or Misleading.
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE)
+
+## 💬 Contributing
+Contributions are welcome. If you find a bug or have a suggestion for improving the project, please 
+[open an issue](https://github.com/YOUR_USERNAME/Healthcare-Statement-Classification/issues) or submit a pull request.
