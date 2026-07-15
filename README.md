@@ -30,7 +30,6 @@ Healthcare-Statement-Classification/
 ├── images/
 │   ├── reliable_classification.png
 │   ├── misleading_classification.png
-│   └── workflow.png
 │
 ├── models/
 │   ├── healthcare_lr_model.pkl
